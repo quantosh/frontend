@@ -1,5 +1,3 @@
-# frontend
-
 ## DIW Portfolio
 
 #### 📌 About
