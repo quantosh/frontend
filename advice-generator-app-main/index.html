@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <script src="main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+ 
   <link rel="stylesheet" href="main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Advice generator app</title>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
   <div class="component_wrapper">
-    <div class="advice__container">    
-      <div class="advice__id" id="advice"><!-- Advice ID goes here -->Advice #117</div>
-      <div class="advice__phrase">"<!-- Advice text goes here -->It is easy to sit up and take notice, what's difficult is getting up and taking action."</div>   
+    <div class="advice__container">
+      <div class="advice__id" id="advice__id">
+        Advice # 
+      </div>
+      <div class="advice__phrase" id="advice__phrase">"
+        It is easy to sit up and take notice, what's difficult is getting up and taking
+        action."
+      </div>
       <div class="advice__line">
         <div class="line-1"></div>
-        <p>"</p>
-        <div class="line-1"></div>
       </div>
-      <a href="" class="random__advice__button"><img src="images\icon-dice.svg" class="random__advice__button__icon" alt=""></a>
+      <button class="random__advice__button" id="random__advice__button">
+        <img src="./images/icon-dice.svg" id="advice-new" class="random__advice__button__icon" alt="Advice Generator">
+      </button>
     </div>
-    <img src="design\desktop-design.jpg" class="img__qwe" alt="">
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
