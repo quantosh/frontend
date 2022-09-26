@@ -2,9 +2,8 @@
 
 ## DIW Portfolio
 
-#### 📌 About this project
+#### 📌 About
 - Code challenges from frontendmentor.io live thanks to netlify.app
-- This is a HTML5 CSS3 JS web page project
 
 #### 👩‍💻 Things I'm practicing in this project
 ![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=)
