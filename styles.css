@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* VARIABLES */
+
+:root {
+  --main-background-color: hsl(217, 54%, 11%);
+  --card-background-color: hsl(216, 50%, 16%);
+  --cardLine-background-color: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --cyan: hsl(178, 100%, 50%);
+  --gray: hsl(219, 19%, 56%);
+}
+
+hr {
+  border: 12px;
+  height: 0.1px;
+  background-color: var(--gray);
+  opacity: 0.5;
+  margin-top: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--gray);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: var(--main-background-color);
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+.component__wrapper {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.project__tittle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray);
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.item__card {
+  width: 200px;
+  margin: 0 auto;
+  background-color: var(--card-background-color);
+  padding: 15px;
+  border-radius: 12px;
+  align-self: start;
+}
+
+.item__card__header {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.item__card__description {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--gray);
+}
+
+.item__card__description img {
+  margin-right: 6px;
+  margin-left: 8px;
+  width: 2px;
+}
+
+/* Auction Details */
+
+.item__card__auction__details {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item__card__timeleft {
+  align-items: center;
+  display: flex;
+}
+
+.item__card__value {
+  color: var(--cyan);
+  align-items: center;
+  display: flex;
+}
+
+.item__card__auction__details .crypto__type {
+  width: 7px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.item__card__auction__details .icon__type {
+  width: 12px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+/* Author */
+
+.item__card__footer {
+  margin-top: 12px;
+  font-size: 12px;
+  margin-bottom: -7px;
+}
+
+.item__card__footer img {
+  width: 22px;
+  border: 1px solid;
+  border-radius: 500px;
+  border-color: white;
+  margin-right: 10px;
+}
+
+.item__card__author {
+  color: var(--gray);
+  font-size: 11px;
+  font-weight: 300;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__card__author a {
+  margin-left: 3px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.attribution {
+  font-size: 8px;
+  text-align: center;
+  margin-top: 6px;
+  color: var(--gray);
+}
+
+.attribution a {
+  color: var(--gray);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+*/
