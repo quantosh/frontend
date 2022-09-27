@@ -18,21 +18,26 @@
   --font-thin: 200;
   --font-regular: 600;
   --font-bold: 800;
+  /* Responsive Size */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.65rem;
 }
 
 * {
   margin: 0;
   padding: 0;
-  color: var(--light-cyan)
+  color: var(--light-cyan);
 }
 
 body {
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   background-color: var(--dark-blue);
-}
-
-.component__wrapper {
   height: 100vh;
   display: grid;
   place-content: center;
@@ -46,25 +51,24 @@ body {
   padding: 25px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 150px
+  margin-top: 150px;
 }
 
 .advice__id {
-  transition: 0.3s ease;
+  font-size: var(--smaller-font-size);
   color: var(--neon-green);
   margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 8px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .advice__phrase {
-  font-size: 18px;
-  margin-bottom: 18px;
+  font-size: var(--normal-font-size);
   font-weight: var(--font-regular);
   color: var(--light-cyan);
-  transition: 0.3s ease;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-height: 4rem;
 }
 
 .advice__line p {
@@ -80,13 +84,17 @@ body {
 
 .random__advice__button {
   margin-top: -15px;
-  margin-bottom: -10px;
+  margin-bottom: -15px;
+  width: 50px;
+  height: 50px;
   border: 0px;
-  padding: 16px;
-  border-radius: 500px;
+  border-radius: 50%;
   background-color: var(--neon-green);
   cursor: pointer;
   transform: translate(0px, 80%);
+  border-radius: 50%;
+  text-align: center;
+  justify-self: center;
 }
 
 .random__advice__button hover {
@@ -94,7 +102,6 @@ body {
 }
 
 .random__advice__button__icon {
-  scale: 0.6;
-  text-align: center;
-  justify-self: center;
+  width: 15px;
+  height: 15px;
 }
