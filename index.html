@@ -2,48 +2,35 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
+  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <link rel="import" href="bower_components/full-width-text/full-width-text.html">
+  <link rel="stylesheet" href="main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Proyectos Frontend Mentor</title>
+  <title>Frontend Mentor | Advice generator app</title>
 </head>
 
 <body>
-  <div class="component__wrapper">
-    <h1 class="project__tittle">🗒 Proyectos Frontend Mentor</h1>
-    <article class="item__card">
-      <header class="item__card__header">Componentes</header>
-      <section class="item__card__description">
-        <ul>
-          <li><a href="https://quantosh.netlify.app/qr-code-component-main/">QR Component</a></li>
-          <li><a href="https://quantosh.netlify.app/nft-preview-card-component-main/">NFT Component</a></li>
-        </ul>
-      </section>
-      <header class="item__card__header">API Rest</header>
-      <section class="item__card__description">
-        <ul>
-          <li><a href="https://quantosh.netlify.app/qr-code-component-main/">Advice Generator</a></li>
-        </ul>
-      </section>
-    </article>
-    <div class="attribution">
-      Coded by <a href="https://github.com/quantosh/frontend/tree/main">Ismael Barea Insua 👾</a>
-      <div class="contact-links">
-        <a id="profile-link" href="https://github.com/quantosh" target="_blank" class="btn contact-details">
-          <i class="fab fa-github"></i>GitHub</a>
-        <a href="mailto:ismaeldawsemi@gmail.com" class="btn contact-details">
-          <i class="fas fa-at"></i>Email</a>
-        <a href="https://www.linkedin.com/in/ismaelbareainsua/" class="btn contact-details">
-          <i class="fa-brands fa-linkedin-in"></i>Linkedin</a>
-        <a href="https://www.facebook.com/ismaelbareainsua" target="_blank" class="btn contact-details">
-          <i class="fa-brands fa-facebook-f"></i>Facebook</a>
-      </div>
+  <div class="advice__container">
+    <div class="advice__id" id="advice__id">
+      Advice #
     </div>
+    
+      <div class="advice__phrase" id="advice__phrase">"
+        <full-width-text>It is easy to sit up and take notice, what's difficult is getting up and taking
+        action."</full-width-text>
+      </div>
+    
+    <div class="advice__line">
+      <div class="line-1"></div>
+    </div>
+    <button class="random__advice__button" id="random__advice__button">
+      <img src="./images/icon-dice.svg" id="advice-new" class="random__advice__button__icon" alt="Advice Generator">
+    </button>
   </div>
+  <script src="main.js"></script>
 </body>
+
 </html>
