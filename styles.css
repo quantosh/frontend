@@ -75,7 +75,7 @@ ul li {
   width: 200px;
   margin: 0 auto;
   background-color: var(--card-background-color);
-  padding: 15px;
+  padding:  0px 15px 15px 15px;
   border-radius: 12px;
   align-self: start;
 }
@@ -84,6 +84,7 @@ ul li {
   color: var(--white);
   font-weight: 400;
   font-size: 16px;
+  margin-top: 12px;
 }
 
 .item__card__description {
