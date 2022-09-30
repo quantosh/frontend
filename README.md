@@ -1,4 +1,4 @@
-## DIW Portfolio
+## FRONTENDMENTOR.IO
 
 #### 📌 About
 - Code challenges from frontendmentor.io live thanks to netlify.app
