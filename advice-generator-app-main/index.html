@@ -12,23 +12,21 @@
   <title>Frontend Mentor | Advice generator app</title>
 </head>
 
-<body>
+<body onload="getRandomAdvice()">
   <div class="advice__container">
     <div class="advice__id" id="advice__id">
-      Advice #
     </div>
-    
       <div class="advice__phrase" id="advice__phrase">"
-        <full-width-text>It is easy to sit up and take notice, what's difficult is getting up and taking
-        action."</full-width-text>
-      </div>
-    
+        <full-width-text></full-width-text>
+      </div> 
     <div class="advice__line">
       <div class="line-1"></div>
     </div>
-    <button class="random__advice__button" id="random__advice__button">
-      <img src="./images/icon-dice.svg" id="advice-new" class="random__advice__button__icon" alt="Advice Generator">
-    </button>
+    <div class="button__centered">
+      <button class="random__advice__button" id="random__advice__button">
+        <img src="./images/icon-dice.svg" id="advice-new" class="random__advice__button__icon" alt="Advice Generator">
+      </button>
+    </div>
   </div>
   <script src="main.js"></script>
 </body>
