@@ -9,23 +9,6 @@
   --white: hsl(0, 0%, 100%);
   --cyan: hsl(178, 100%, 50%);
   --gray: hsl(219, 19%, 56%);
-
-  /* Responsive related variables */
-  --responsive-mobile: 375px;
-  --responsive-desktop: 1440px;
-
-  /* Font related variables */
-  --font-thin: 200;
-  --font-regular: 600;
-  --font-bold: 800;
-  /* Responsive Size */
-  --big-font-size: 2rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1.125rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: 0.65rem;
 }
 
 hr {
@@ -33,18 +16,11 @@ hr {
   height: 0.1px;
   background-color: var(--gray);
   opacity: 0.5;
-  margin-top: 12px;
 }
 
 * {
   margin: 0;
   padding: 0;
-}
-
-a {
-  color: var(--gray);
-  font-weight: 600;
-  text-decoration: none;
 }
 
 body {
@@ -53,38 +29,38 @@ body {
   background-color: var(--main-background-color);
 }
 
-ul li {
-  margin-left: 20px;
-}
-
 .component__wrapper {
   height: 100vh;
   display: grid;
   place-content: center;
 }
 
-.project__tittle {
-  text-align: center;
+.project__tittle {  
   font-weight: 400;
-  font-size: var(--h3-font-size);
+  font-size: 16px;
   color: var(--gray);
+  margin-top: 12px;
   margin-bottom: 6px;
 }
 
 .item__card {
-  width: 200px;
-  margin: 0 auto;
+  width: 200px;  
   background-color: var(--card-background-color);
-  padding:  0px 15px 15px 15px;
+  
   border-radius: 12px;
   align-self: start;
 }
 
+.item__card__image {
+  width: 200px;
+  border-radius: 8px;
+}
+
 .item__card__header {
+  margin-top: 10px;
   color: var(--white);
   font-weight: 400;
   font-size: 16px;
-  margin-top: 12px;
 }
 
 .item__card__description {
@@ -136,6 +112,37 @@ ul li {
   align-items: center;
 }
 
+/* Author */
+
+.item__card__footer {
+  margin-top: 12px;
+  font-size: 12px;
+  margin-bottom: -7px;
+}
+
+.item__card__footer img {
+  width: 22px;
+  border: 1px solid;
+  border-radius: 500px;
+  border-color: white;
+  margin-right: 10px;
+}
+
+.item__card__author {
+  color: var(--gray);
+  font-size: 11px;
+  font-weight: 300;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__card__author a {
+  margin-left: 3px;
+  text-decoration: none;
+  color: var(--white);
+}
+
 .attribution {
   font-size: 8px;
   text-align: center;
@@ -147,32 +154,6 @@ ul li {
   color: var(--gray);
   font-weight: 600;
   text-decoration: none;
-}
-
-.contact-links {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-}
-
-.contact-links a {
-  margin: 5px;
-  display: flex;
-  align-items: center;
-}
-
-.contact-links i {
-  margin-right: 2px;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-details {
-  transition: transform 0.3s ease-out;
-}
-
-.contact-details:hover {
-  transform: translateY(-1px);
 }
 
 /*
