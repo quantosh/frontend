@@ -71,10 +71,12 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
   filter: blur(4px);
-  animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  animation: scale 0.8s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  transition: all 0.3s ease-in-out;
 }
 @keyframes scale {
   100% {
+    
     transform: scale(1);
     opacity: 1;
     filter: blur(0);
@@ -95,20 +97,21 @@ body {
 .button__centered {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .random__advice__button {
   width: 50px;
   height: 50px;
   border: 0px;
+  margin: 0px;
   border-radius: 50%;
   background-color: var(--neon-green);
   cursor: pointer;
   transform: translate(0px, 50%);
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .random__advice__button hover {
