@@ -12,8 +12,4 @@ function getRandomAdvice() {
     });
 }
 
-adviceBtn.addEventListener("click",getRandomAdvice());
-
-
-
-
+adviceBtn.addEventListener("click", ()=> {getRandomAdvice()});
