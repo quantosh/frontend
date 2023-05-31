@@ -1,7 +1,7 @@
 ## FRONTENDMENTOR.IO
 
 #### 📌 About
-- Code challenges from frontendmentor.io live thanks to netlify.app
+- Code challenges from frontendmentor.io live thanks to netlify.app you can see it live here: https://components-quantosh.netlify.app
 
 #### 👩‍💻 Things I'm practicing in this project
 ![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=)
